@@ -62,6 +62,8 @@ p {
   font-weight: bold;
 }
 
+/* Media Queries */
+
 @media (max-width: 400px) {
  .testimonial-caption {
    font-size: 3vw;
@@ -77,6 +79,8 @@ p {
    border-width: 0.4rem
  }
 }
+
+/* Carousel Section */
 
 .testimonial-images {
   border-radius: 100% 100% 100% 100%;
@@ -110,32 +114,23 @@ p {
   margin: 0 auto;
 }
 
+.card {
+  border: 0;
+}
+
 /* Contact Section */
 
-.bold {
-  font-weight: bold;
-  background-color: #FDF6F0;
-}
-
-.form {
-  margin: 0 auto;
-}
-
 fieldset {
-  width: 30%;
+  width: 200px;
   margin: 0 auto;
-  text-align: auto;
-}
-
-input {
-  text-align: center;
+  text-align: left;
 }
 
 /* Socials Section */
 
 #socials {
   background-color: #F8E2CF;
-  height: 10rem;
+  height: 6rem;
   margin-top: 2rem;
 }
 
