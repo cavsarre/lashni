@@ -36,6 +36,20 @@ p {
   margin-right: 2rem;
 }
 
+input {
+  margin-bottom: 0.5rem;
+  width: 200px;
+  border-radius: 10px;
+  border: 0;
+  text-align: center;
+}
+
+textarea {
+  border-radius: 10px;
+  border: 0;
+  text-align: center;
+}
+
 #testimonials {
   background-color: #F5C6AA;
 }
@@ -92,6 +106,11 @@ p {
  }
  .carousel-control-next, .carousel-control-prev {
    width: 10%;
+ }
+ fieldset {
+   width: 190px;
+   margin: 0 auto;
+   text-align: left;
  }
 }
 
