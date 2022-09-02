@@ -47,7 +47,7 @@ input {
 textarea {
   border-radius: 10px;
   border: 0;
-  text-align: center;
+  text-align: left;
 }
 
 #testimonials {
@@ -62,6 +62,10 @@ textarea {
 
 .beauty-room {
   width: 100%;
+}
+
+.nav-link {
+  color: white;
 }
 
 /* Testimonials Section */
