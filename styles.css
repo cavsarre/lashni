@@ -66,17 +66,32 @@ p {
 
 @media (max-width: 400px) {
  .testimonial-caption {
-   font-size: 3vw;
+   font-size: 6vw;
  }
  .logo {
    width: 80px;
  }
  #testimonials h5 {
-   font-size: 0.5rem;
+   font-size: 0.75rem;
+   width: 100%;
+ }
+ .testimonials-container {
+   width: 100%;
+ }
+ .carousel-caption {
+   width: 100%;
+   left: 0;
+   right: 0;
  }
  hr {
    margin: 2rem auto;
    border-width: 0.4rem
+ }
+ .testimonial-images {
+   width: 100%;
+ }
+ .carousel-control-next, .carousel-control-prev {
+   width: 10%;
  }
 }
 
